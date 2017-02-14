@@ -1,0 +1,24 @@
+{
+  "name": "suprat.im",
+  "version": "1.0.0",
+  "description": "My personal blog and web presence web app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/supratimsengupta/suprat.im.git"
+  },
+  "keywords": [
+    "suprat.im",
+    "resume",
+    "cv"
+  ],
+  "author": "Supratim Sengupta",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/supratimsengupta/suprat.im/issues"
+  },
+  "homepage": "https://github.com/supratimsengupta/suprat.im#readme"
+}
