@@ -1,24 +1,35 @@
 {
-  "name": "suprat.im",
-  "version": "1.0.0",
-  "description": "My personal blog and web presence web app",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/supratimsengupta/suprat.im.git"
-  },
-  "keywords": [
-    "suprat.im",
-    "resume",
-    "cv"
-  ],
-  "author": "Supratim Sengupta",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/supratimsengupta/suprat.im/issues"
-  },
-  "homepage": "https://github.com/supratimsengupta/suprat.im#readme"
+    "name": "suprat.im",
+    "version": "1.0.0",
+    "description": "My personal blog and web presence web app",
+    "main": "dist/server/main.js",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/supratimsengupta/suprat.im.git"
+    },
+    "keywords": [
+        "suprat.im"
+    ],
+    "author": "Supratim Sengupta",
+    "license": "None",
+    "bugs": {
+        "url": "https://github.com/supratimsengupta/suprat.im/issues"
+    },
+    "homepage": "https://github.com/supratimsengupta/suprat.im#readme",
+    "devDependencies": {
+        "ava": "^0.18.1",
+        "babel-cli": "^6.23.0",
+        "babel-plugin-react-html-attrs": "^2.0.0",
+        "babel-plugin-transform-es2015-modules-commonjs": "^6.23.0",
+        "babel-preset-es2015": "^6.22.0",
+        "babel-preset-react": "^6.23.0",
+        "react": "^15.4.2",
+        "react-dom": "^15.4.2",
+        "standard": "^8.6.0",
+        "webpack": "^2.2.1"
+    },
+    "scripts": {
+        "dev": "webpack -d --watch",
+        "build": "webpack -p"
+    }
 }

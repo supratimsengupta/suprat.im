@@ -1,0 +1,15 @@
+{
+    "presets": ["es2015", "react"],
+    "ignore": [
+        "dist/**/*/js",
+        "dev/server/**/*/js",
+        "dev/ui/scripts/tests/**/*/js",
+        "dev/ui/scripts/thirdparty/**/*/js"
+    ],
+    "plugins": [
+        "react-html-attrs", ["transform-es2015-modules-commonjs", {
+            "allowTopLevelThis": true
+        }]
+    ]
+
+}
